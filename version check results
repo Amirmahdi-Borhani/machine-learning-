@@ -1,0 +1,6 @@
+Python: 3.10.4 (main, Nov 29 2022, 20:00:25) [GCC 9.4.0]
+scipy: 1.9.3
+numpy: 1.23.5
+matplotlib: 3.6.2
+pandas: 1.5.2
+sklearn: 1.1.3
