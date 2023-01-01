@@ -8,12 +8,16 @@ names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
 # shape
 print(dataset.shape)
+print("-"*20)
 # head
 print(dataset.head(20))
+print("-"*20)
 # descriptions
 print(dataset.describe())
+print("-"*20)
 # class distribution
 print(dataset.groupby('class').size())
+print("-"*20)
 # box and whisker plots
 dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
 pyplot.show()
